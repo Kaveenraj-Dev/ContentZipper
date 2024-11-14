@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <Authors>Kaveenraj</Authors>
+    <Company />
+    <Description>A library to Zip and UnZip contents with progress notification and other customizations</Description>
+    <PackageReleaseNotes>- Zip the contents with callback notification. Also define how the directory contents should be processed for the Zip operation, set the Compression levels, etc
+- UnZip the contents with callback notification</PackageReleaseNotes>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <Copyright>All rights reserved.</Copyright>
+    <Product>ContentZipper</Product>
+    <PackageId>ContentZipper</PackageId>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile></DocumentationFile>
+  </PropertyGroup>
+
+</Project>
